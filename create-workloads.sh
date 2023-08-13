@@ -15,8 +15,8 @@ then
     exit
 elif ! command -v envsubst &> /dev/null
 then
-    echo "kubectl required"
-	echo "please install from https://kubernetes.io/docs/tasks/tools/"
+    echo "envsubst required"
+	echo "please install from https://github.com/a8m/envsubst"
     exit
 fi
 
